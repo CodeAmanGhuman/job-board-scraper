@@ -17,13 +17,16 @@ Senior Python Developer, Blotato, https://remoteok.com/remote-jobs/remote-senior
 ## ⚙️ How to Use
 
 1. Clone this repo:
+   
 git clone https://github.com/CodeAmanGhuman/job-board-scraper.git
 cd job-board-scraper
 
-2. Install dependencies:
+2. Install dependencies:\n
+   
 pip install -r requirements.txt
 
 3. Run it:
+   
 python main.py
 
 4. Enter a keyword (e.g., python) or leave blank to scrape all jobs.
