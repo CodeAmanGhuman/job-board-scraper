@@ -9,10 +9,10 @@ This is a simple Python script that scrapes job listings from [RemoteOK](https:/
 - 💾 Saves clean data to `jobs.csv`
 - 📦 Easy to run from terminal — no setup hassle
 
-## 📸 Sample Output
+## 📸 Sample Output (CSV)
 
-Title,Company,Link,Tags
-Senior Python Developer,Blotato,https://remoteok.com/remote-jobs/remote-senior-python-developer-blotato-123456 Python, Backend, Remote
+Title, Company, Link, Tags
+Senior Python Developer, Blotato, https://remoteok.com/remote-jobs/remote-senior-python-developer-blotato-123456, Python,Backend,Remote
 
 ## ⚙️ How to Use
 
