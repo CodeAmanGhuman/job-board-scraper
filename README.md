@@ -1,33 +1,48 @@
 # 🧹 RemoteOK Job Scraper
 
-This is a simple Python script that scrapes job listings from [RemoteOK](https://remoteok.com) and saves them to a CSV file. You can filter results by keyword in **job titles or tags**.
+A lightweight Python script to scrape and filter remote job listings from [RemoteOK](https://remoteok.com). Export results to CSV for easy analysis.
 
-## 🚀 Features
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-- ✅ Scrapes 90+ latest remote jobs from RemoteOK
-- 🔍 Filter jobs by keyword (e.g., "Python", "React", "AI")
-- 💾 Saves clean data to `jobs.csv`
-- 📦 Easy to run from terminal — no setup hassle
+## ✨ Features
 
-## 📸 Sample Output (CSV)
+- **Comprehensive Scraping** - Fetches 90+ latest remote jobs in one run
+- **Smart Filtering** - Search by keywords in job titles or tags (e.g., "Python", "React", "AI")
+- **Clean Output** - Structured CSV format for easy processing
+- **Zero Config** - Runs directly from terminal with minimal setup
 
-Title, Company, Link, Tags
-Senior Python Developer, Blotato, https://remoteok.com/remote-jobs/remote-senior-python-developer-blotato-123456, Python,Backend,Remote
+## 📦 Installation
 
-## ⚙️ How to Use
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/CodeAmanGhuman/job-board-scraper.git
+   cd job-board-scraper
 
-1. Clone this repo:
-   
-git clone https://github.com/CodeAmanGhuman/job-board-scraper.git
-cd job-board-scraper
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
 
-2. Install dependencies:\n
-   
-pip install -r requirements.txt
+3. Run the script with:
+   ```bash
+   python main.py
 
-3. Run it:
-   
-python main.py
+4. When prompted:
+- Enter a keyword to filter jobs (e.g., "backend" or "javascript")
+- Or press Enter to scrape all available jobs
 
-4. Enter a keyword (e.g., python) or leave blank to scrape all jobs.
+## 📂 Output
+
+The results will be saved to jobs.csv in the project directory.
+
+## 🛠️ Libraries Used
+- "Python 3"
+- "requests" for HTTP calls
+- "pandas" for CSV export
+- "RemoteOK API" for job data
+
+## ✨ Example Use Cases
+- Tech job seekers filtering roles by stack
+- Recruiters extracting leads
+- Students learning real-world scraping
 
