@@ -17,7 +17,7 @@ Senior Python Developer,Blotato,https://remoteok.com/remote-jobs/remote-senior-p
 ## ⚙️ How to Use
 
 1. Clone this repo:
-git clone https://github.com/YOUR_USERNAME/job-board-scraper.git
+git clone https://github.com/CodeAmanGhuman/job-board-scraper.git
 cd job-board-scraper
 
 2. Install dependencies:
