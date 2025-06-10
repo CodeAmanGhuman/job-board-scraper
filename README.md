@@ -2,7 +2,7 @@
 
 A lightweight Python script to scrape and filter remote job listings from [RemoteOK](https://remoteok.com). Export results to CSV for easy analysis.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Python](https://img.shields.io/badge/Python-3%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## ✨ Features
